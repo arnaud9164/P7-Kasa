@@ -1,0 +1,36 @@
+.collapse__button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #FF6060;
+    border-radius: 5px;
+    border-style : none;
+    height: 47px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 0 30px 0 15px;
+    cursor: pointer;
+}
+.collapse__p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 142.6%;
+    color: #FF6060;
+    padding: 30px 30px 40px 15px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    margin: 0;
+}
+
+@media all and (max-width:630px){
+    .collapse__p{
+        font-size: 14px;
+    }
+
+    .collapse__button{
+        font-size: 14px;
+        padding-right: 15px;
+    }
+}

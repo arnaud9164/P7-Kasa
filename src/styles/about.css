@@ -1,0 +1,24 @@
+.about{
+    margin-top: 50px;
+}
+.collaspe__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+.collapse{
+    width: 80%;
+    margin: 15px 0 15px 0;
+}
+
+@media all and (max-width:630px){
+    .about{
+        margin-top: 10px;
+    } 
+  
+    .collapse{
+        width: 90%;
+    }
+}
