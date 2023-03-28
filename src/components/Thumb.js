@@ -20,6 +20,3 @@ export default function Thumb() {
         </div>
     );
  }
- // utiliser un composant gallery et ou dans home
- // appel dans map de gallery le composant thumb et passe produit dans les parametres 
- // utiliser les props

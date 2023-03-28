@@ -13,10 +13,13 @@
     margin: 15px 0 15px 0;
 }
 
-@media all and (max-width:630px){
+@media all and (max-width:768px){
     .about{
         margin-top: 10px;
     } 
+    .collaspe__container{
+        margin: 10px 0 10px 0;
+    }
   
     .collapse{
         width: 90%;

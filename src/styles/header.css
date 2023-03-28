@@ -32,8 +32,8 @@ li a:hover{
 /*--- Mobile ---*/
 @media all and (max-width:768px){
     .header__logo{
-        Width : 145px;
-        height: 47px;
+        Width : 140px;
+        height: 40px;
     }
     li a{
         font-size: 13px;

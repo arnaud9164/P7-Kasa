@@ -18,6 +18,7 @@ h3{
     width: 90%;
     height: 415px;
     margin: auto;
+    margin-top: 20px;
 }
 .logement__information__container{
     display: flex;
@@ -25,9 +26,11 @@ h3{
     justify-content: space-between;
     width: 90%;
     margin: auto;
+    margin-top: 30px;
 }
 .logement__tag__container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 .logement__tag{
@@ -68,6 +71,7 @@ h3{
     flex-direction: row;
     width: 90%;
     margin:auto;
+    margin-bottom: 30px;
 }
 .logement__collapse{
     width: 100%;
@@ -81,12 +85,21 @@ h3{
 }
 
 @media all and (max-width:820px){
+    .carousel__container{
+        height: 275px;
+
+    }
     .logement__information__container{
         flex-direction: column;
     }
     .host__container{
         flex-direction: row-reverse;
         justify-content: space-between;
+    }
+    .rating__container img{
+        height: 20px;
+        width: 20px;
+
     }
     .collapse__container{
         flex-direction: column;

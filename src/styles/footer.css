@@ -16,6 +16,9 @@
 
 /*--- Mobile ---*/
 @media all and (max-width:768px){
+    .footer{
+        margin-top: 150px;
+    }
     .footer__text{
         font-size: 14px;
     }

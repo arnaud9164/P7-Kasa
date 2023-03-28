@@ -40,3 +40,14 @@
     left: 20px;
     z-index: 1;
 }
+
+@media all and (max-width:820px){
+    .carousel__number{
+        display: none;
+    }
+    .carousel__arrow{
+        width: 20px;
+        height: 30px;
+    }
+
+}
