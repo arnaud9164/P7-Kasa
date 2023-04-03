@@ -111,4 +111,13 @@ h3{
     .collapse__left{
         margin-right: 0px;
     }
+
+    .logement__tag__container{
+        margin-bottom: 10px;
+
+    }
+    .logement__tag{
+        margin: 2%;
+        padding: 5px 2%;
+    }
 }
